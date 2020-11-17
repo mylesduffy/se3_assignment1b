@@ -58,5 +58,33 @@ public class Driver {
         System.out.println("\r\r");
         System.out.println(course3.toString());
         
+        System.out.println("\r\r ---------------------------------- \r\r");
+        
+        System.out.println(student1.toString());
+        System.out.println("\r\r");
+        System.out.println(student2.toString());
+        System.out.println("\r\r");
+        System.out.println(student3.toString());
+        System.out.println("\r\r");
+        System.out.println(student4.toString());
+        System.out.println("\r\r");
+        System.out.println(student5.toString());
+        System.out.println("\r\r");
+        System.out.println(student6.toString());
+        
+        System.out.println("\r\r ---------------------------------- \r\r");
+        
+        System.out.println(module1.toString());
+        System.out.println("\r\r");
+        System.out.println(module2.toString());
+        System.out.println("\r\r");
+        System.out.println(module3.toString());
+        System.out.println("\r\r");
+        System.out.println(module4.toString());
+        System.out.println("\r\r");
+        System.out.println(module5.toString());
+        System.out.println("\r\r");
+        System.out.println(module6.toString());
+        
     }
 }
