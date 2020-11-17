@@ -23,7 +23,7 @@
 		<dependency>
 			<groupId>com.github.mylesduffy</groupId>
 			<artifactId>se3_assignment1a</artifactId>
-			<version>8.0</version>
+			<version>9.0</version>
 		</dependency>
 
 		
