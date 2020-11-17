@@ -1,8 +1,6 @@
 package com.mycompany.se3_assignment1b;
 
-import com.mycompany.se3_assignment1.Course;
-import com.mycompany.se3_assignment1.Module;
-import com.mycompany.se3_assignment1.Student;
+import com.mycompany.se3_assignment1.*;
 import org.joda.time.DateTime;
 
 /**
@@ -43,5 +41,22 @@ public class Driver {
         course3.addModuleCourse(module1);
         course3.addModuleCourse(module2);
         course3.addModuleCourse(module6);
+        
+        course1.enrollStudentCourse(student1);
+        course1.enrollStudentCourse(student2);
+        
+        course2.enrollStudentCourse(student3);
+        course2.enrollStudentCourse(student4);
+       
+        course3.enrollStudentCourse(student5);
+        course3.enrollStudentCourse(student6);
+        
+        
+        System.out.println(course1.toString());
+        System.out.println("\r\r");
+        System.out.println(course2.toString());
+        System.out.println("\r\r");
+        System.out.println(course3.toString());
+        
     }
 }
